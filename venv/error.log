@@ -1,0 +1,20 @@
+ERROR:root:[Errno 2] No such file or directory: 'aj.html'
+Traceback (most recent call last):
+  File "D:\Institute\United International University\Spring 2019\Thesis and Project\Projects\WebScrappingII\venv\websrap.py", line 44, in read_webpage_from_html
+    with open(filepath) as fobj:
+FileNotFoundError: [Errno 2] No such file or directory: 'aj.html'
+ERROR:root:write() argument must be str, not bytes
+Traceback (most recent call last):
+  File "D:\Institute\United International University\Spring 2019\Thesis and Project\Projects\WebScrappingII\venv\websrap.py", line 35, in write_webpage_as_html
+    fobj.write(data)
+TypeError: write() argument must be str, not bytes
+ERROR:root:[Errno 2] No such file or directory: 'html/aj.html'
+Traceback (most recent call last):
+  File "D:\Institute\United International University\Spring 2019\Thesis and Project\Projects\WebScrappingII\venv\websrap.py", line 43, in read_webpage_from_html
+    with open(filepath) as fobj:
+FileNotFoundError: [Errno 2] No such file or directory: 'html/aj.html'
+ERROR:root:[Errno 2] No such file or directory: 'html/aj.html'
+Traceback (most recent call last):
+  File "D:\Institute\United International University\Spring 2019\Thesis and Project\Projects\WebScrappingII\venv\websrap.py", line 43, in read_webpage_from_html
+    with open(filepath) as fobj:
+FileNotFoundError: [Errno 2] No such file or directory: 'html/aj.html'
